@@ -329,8 +329,6 @@ int main (void) {
         fprintf(cl, "%d %lf\n", i, stclr[i]);
         fprintf(combine, "%d %lf %lf %lf %lf %lf %lf \n", i, super[i], michig[i], hur[i], eri[i], ontar[i], stclr[i]);
     }
-    printf("Question 5 Complete\n\n");
-    printf("Question 6 Complete\n\n");
     // Question 6
     printf("Question 7\n");
     //Turning from summation to average for 6
@@ -343,7 +341,6 @@ int main (void) {
         avg24[i] /= count24;
         
     }
-    printf("\n\n");
 
     //Printing the table (q7)
 
