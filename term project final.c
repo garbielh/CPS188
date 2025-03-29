@@ -62,9 +62,9 @@ void comparison(double avg[], int *x, int *y, int start, int end) {     // finds
 
 int main (void) {
     
-    FILE *data = fopen("g2023_2024_ice.dat.txt", "r");
-    FILE *data1 = fopen("g2021_2022_ice.dat.txt", "r");
-    FILE *data2 = fopen("g2022_2023_ice.dat.txt", "r");
+    FILE *data = fopen("g2023_2024_ice.dat", "r");
+    FILE *data1 = fopen("g2021_2022_ice.dat", "r");
+    FILE *data2 = fopen("g2022_2023_ice.dat", "r");
 
     //Files for question 5 and 6
     FILE *sup = fopen("supdailyavg.txt", "w");
@@ -358,9 +358,9 @@ int main (void) {
     fclose(data);
     fclose(data1);
     fclose(data2);
-    data = fopen("g2023_2024_ice.dat.txt", "r");
-    data1 = fopen("g2021_2022_ice.dat.txt", "r");
-    data2 = fopen("g2022_2023_ice.dat.txt", "r");
+    data = fopen("g2023_2024_ice.dat", "r");
+    data1 = fopen("g2021_2022_ice.dat", "r");
+    data2 = fopen("g2022_2023_ice.dat", "r");
     count = 0;
     for(int i = 0; i<=7; i++){
         fgets(row, 100, data);
